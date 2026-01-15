@@ -1,62 +1,72 @@
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                              ANNAHMEN                                       │
+│                              DEFINITIONS                                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│   1. Kinder bekommen DNA von ihren Eltern.                                  │
+│   1. DNA                                                                    │
+│      All living beings have DNA.                                            │
+│      DNA can be represented as a chain of four letters:                     │
+│      A, T, C, G.                                                            │
 │                                                                             │
-│   2. Wenn DNA sich kopiert, macht sie manchmal kleine Fehler.               │
-│                                                                             │
-│   3. Wir können die Unterschiede zwischen zwei DNA-Proben zählen.           │
-│      Das nennen wir X.                                                      │
+│   2. GENETIC DISTANCE (X)                                                   │
+│      We can count the differences between two DNA samples.                  │
 │                                                                             │
 │         Person A:   A T C G A T C G                                         │
 │         Person B:   A T C G A T T G                                         │
 │                                 ↑                                           │
-│                            1 Unterschied                                    │
+│                            1 difference                                     │
 │                                                                             │
-│         X = Unterschiede / Gesamtlänge = 1/8 = 12,5%                        │
+│         X = differences / total length = 1/8 = 12.5%                        │
 │                                                                             │
-│   4. Wir können zählen, wie viele Generationen zurück zwei Menschen         │
-│      einen gemeinsamen Vorfahren haben.                                     │
-│      Das nennen wir N.                                                      │
+│   3. GENERATIONAL DISTANCE (N)                                              │
+│      The smallest number of generations back                                │
+│      until two beings share a common ancestor.                              │
 │                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                              DER BAUM                                       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│                                  DU                                         │
-│                                  │                                          │
-│                           ┌──────┴──────┐                                   │
-│     N = 1                 │             │                                   │
-│     X = 0,001%        SCHWESTER        ...                                  │
-│                                         │                                   │
-│                                  ┌──────┴──────┐                            │
-│     N = 2                        │             │                            │
-│     X = 0,002%               COUSIN           ...                           │
-│                                                │                            │
-│                                               ...                           │
-│                                                │                            │
-│     N = ~3.000 ?                       FREMDER MENSCH ?                     │
-│     X = 0,1%                                   │                            │
-│                                               ...                           │
-│                                                │                            │
-│     N = ~300.000 ?                        SCHIMPANSE ?                      │
-│     X = 1,2%                                   │                            │
-│                                               ...                           │
-│                                                │                            │
-│     N = ~1.500.000.000 ?                    BANANE ?                        │
-│     X = 40%                                                                 │
+│   4. MUTATION RATE IS BOUNDED                                               │
+│      There is a maximum number of mutations per generation.                 │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                              DIE FRAGE                                      │
+│                              THE TABLE                                      │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │                                                                             │
-│        Existiert eine Funktion f, sodass X = f(N) ?                         │
+│         Comparison                     N                    X               │
+│        ────────────────────────────────────────────────────────             │
+│                                                                             │
+│         YOU  ↔  IDENTICAL TWIN         0                    ~0%             │
+│                                                                             │
+│         YOU  ↔  SISTER                 1                    0.001%          │
+│                                                                             │
+│         YOU  ↔  COUSIN                 2                    0.002%          │
+│                                                                             │
+│         YOU  ↔  LATINO                 ~3,000 ?             0.1% ?          │
+│                                                                             │
+│         YOU  ↔  CHIMP                  ~300,000 ?           1.2% ?          │
+│                                                                             │
+│         YOU  ↔  BANANA                 ~1,500,000,000 ?     40% ?           │
+│                                                                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              THE QUESTIONS                                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│                                                                             │
+│        1. Does a function f exist, such that N ≥ f(X) ?                     │
+│           (f gives the minimum N for a given X)                             │
+│                                                                             │
+│        2. If X ≠ 0, does an N always exist?                                 │
+│                                                                             │
+│        3. If X ≠ 0, does a common ancestor exist?                           │
+│                                                                             │
+│                                                                             │
+│        ───────────────────────────────────────────────────────              │
+│                                                                             │
+│        If 1 is true, is 2 also true?                                        │
+│                                                                             │
+│        If 2 is true, is 3 also true?                                        │
 │                                                                             │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
