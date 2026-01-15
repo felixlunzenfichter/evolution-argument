@@ -8,25 +8,26 @@
 │                                                                             │
 │   1. DNA                                                                    │
 │      All living beings have DNA.                                            │
-│      DNA can be represented as a chain of four letters:                     │
-│      A, T, C, G.                                                            │
+│      Four letters: A, T, C, G.                                              │
+│      Human: 3 billion letters. Chimp: 3 billion. Banana: 500 million.       │
 │                                                                             │
 │   2. GENETIC DISTANCE (X)                                                   │
-│      We can count the differences between two DNA samples.                  │
+│      Count the differences between two DNA samples.                         │
 │                                                                             │
-│         Person A:   A T C G A T C G                                         │
-│         Person B:   A T C G A T T G                                         │
-│                                 ↑                                           │
-│                            1 difference                                     │
-│                                                                             │
-│         X = differences / total length = 1/8 = 12.5%                        │
+│         A T C G A T C G                                                     │
+│         A T C G A T T G                                                     │
+│                     ↑                                                       │
+│         X = 1                                                               │
 │                                                                             │
 │   3. GENERATIONAL DISTANCE (N)                                              │
-│      The smallest number of generations back                                │
-│      until two beings share a common ancestor.                              │
+│      Generations back to common ancestor.                                   │
 │                                                                             │
-│   4. MUTATION RATE IS BOUNDED                                               │
-│      There is a maximum number of mutations per generation.                 │
+│   4. MUTATION                                                               │
+│      One letter changes. About 100 per generation.                          │
+│                                                                             │
+│   5. INHERITANCE                                                            │
+│      Half from mother. Half from father. Plus new mutations.                │
+│      Inheritance reshuffles. Mutations create.                              │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 
@@ -34,43 +35,34 @@
 │                              THE TABLE                                      │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│                                                                             │
 │         Comparison                     N                    X               │
 │        ────────────────────────────────────────────────────────             │
-│                                                                             │
-│         YOU  ↔  IDENTICAL TWIN         0                    ~0%             │
-│                                                                             │
-│         YOU  ↔  SISTER                 1                    0.001%          │
-│                                                                             │
-│         YOU  ↔  COUSIN                 2                    0.002%          │
-│                                                                             │
-│         YOU  ↔  LATINO                 ~3,000 ?             0.1% ?          │
-│                                                                             │
-│         YOU  ↔  CHIMP                  ~300,000 ?           1.2% ?          │
-│                                                                             │
-│         YOU  ↔  BANANA                 ~1,500,000,000 ?     40% ?           │
-│                                                                             │
+│         YOU  ↔  TWIN                   0                    0               │
+│         YOU  ↔  SIBLING                1                    100             │
+│         YOU  ↔  COUSIN                 2                    200             │
+│         YOU  ↔  STRANGER               3,000                3,000,000       │
+│         YOU  ↔  CHIMP                  300,000              36,000,000      │
+│         YOU  ↔  BANANA                 1,500,000,000        ?               │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                              THE QUESTIONS                                  │
+│                              THE INSIGHT                                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
+│   If there are differences, there is a common ancestor.                     │
+│   The more differences, the more generations back.                          │
+│   No limit to how different. No limit to what form.                         │
+│   Completely independent creation is possible. This is the key point.       │
 │                                                                             │
-│        1. Does a function f exist, such that N ≥ f(X) ?                     │
-│           (f gives the minimum N for a given X)                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              CONCLUSION                                     │
+├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│        2. If X ≠ 0, does an N always exist?                                 │
-│                                                                             │
-│        3. If X ≠ 0, does a common ancestor exist?                           │
-│                                                                             │
-│                                                                             │
-│        ───────────────────────────────────────────────────────              │
-│                                                                             │
-│        If 1 is true, is 2 also true?                                        │
-│                                                                             │
-│        If 2 is true, is 3 also true?                                        │
-│                                                                             │
+│   Everything is one. And not one.                                           │
+│   One because of a common origin, a shared genetic system, a shared history.│
+│   Not one because of the ability to express completely opposite forms.      │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
